@@ -31,7 +31,7 @@ export default function App() {
         <NavbarBrand>
           <p className="font-bold text-inherit">Subhajit Basu</p>
         </NavbarBrand>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link color="foreground" href="#">
             About
           </Link>
@@ -50,7 +50,7 @@ export default function App() {
           <Link color="foreground" href="#">
             Contact
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarContent justify="end">
@@ -63,7 +63,7 @@ export default function App() {
 
       <NavbarMenu>
         <div className="mt-10">
-          {menuItems.map((item, index) => (
+          {/* {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 className="w-full flex justify-center items-center m-3 hover:scale-125"
@@ -80,7 +80,7 @@ export default function App() {
                 {item}
               </Link>
             </NavbarMenuItem>
-          ))}
+          ))} */}
         </div>
       </NavbarMenu>
     </Navbar>
